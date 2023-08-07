@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	:header
+<body>
+
+	<div id="container">
+		:top
+
+		<a href="../"><div class="back">@back_to_work</div></a>
+
+		<div id="project-container">
+			<div id="image-view"></div>
+
+			<div id="project-info">
+				<div id="project-thumbs"></div>
+				<div class="project-content">
+					<h1>@title</h1>
+					if @description do
+						@description
+					endif
+
+					foreach $pdf do
+						<p><a href="@url">Download PDF</a></p>
+					endforeach
+				</div>
+			</div>
+		</div>
+
+		:project
+
+		:footer
+	</div>
+
+</body>
+</html>

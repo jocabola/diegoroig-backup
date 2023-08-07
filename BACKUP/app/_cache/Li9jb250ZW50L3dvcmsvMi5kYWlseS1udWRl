@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<title>diego roig monllor</title>
+	<meta charset="utf-8" />
+	<meta http-equiv="content-language" content="en" />
+	<meta name="description" content="Diego Roig Monllor is a catalan artist based in Denmark and Berlin." />
+	<meta name="author" content="Jocabola, http://www.jocabola.com" />
+
+	<meta name="application-name" content="diego roig monllor"/>
+
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+
+	<link href='http://fonts.googleapis.com/css?family=Nunito:300,700' rel='stylesheet' type='text/css'>
+	<link href="../../public/css/styles.css" rel="stylesheet" media="screen" title="main" />
+
+	<script type="text/javascript" src="../../public/js/diego.js"></script>
+</head>
+<body>
+
+	<div id="container">
+		<div id="top">
+	<div id="name"><a href="../../">diego roig monllor</a></div>
+	<div id="sep"></div>
+	<div id="menu">
+		<div id="menu-work" class="menu-item"><a href="../../work/">work</a></div>
+		<!-- <div id="menu-news" class="menu-item"><a href="../../news/">news</a></div> -->
+		<div id="menu-contact" class="menu-item"><a href="../../contact/">contact</a></div>
+
+		<script type="text/javascript">
+			var url = '../../work/daily-nude/';
+			if ( url.indexOf( 'work' ) > -1 ) {
+				document.getElementById( 'menu-work' ).className += ' selected';
+			}
+			/*else if ( url.indexOf( 'news' ) > -1 ) {
+				document.getElementById( 'menu-news' ).className += ' selected';
+			}*/
+			else if ( url.indexOf( 'contact' ) > -1 ) {
+				document.getElementById( 'menu-contact' ).className += ' selected';
+			}
+		</script>
+	</div>
+</div>
+
+		<a href="../"><div class="back">Back to work index</div></a>
+
+		<div id="project-container">
+			<div id="image-view"></div>
+
+			<div id="project-info">
+				<div id="project-thumbs"></div>
+				<div class="project-content">
+					<h1>Daily nude</h1>
+					
+
+											<p><a href="../../content/work/2.daily-nude/daily nude.pdf">Download PDF</a></p>
+					
+				</div>
+			</div>
+		</div>
+
+		
+
+<script type="text/javascript">
+
+var gallery = [];
+var obj;
+
+	obj = {};
+
+	obj.thumb = '../../content/work/2.daily-nude/10.saturday-10-40am/thumb.jpg';
+	obj.title = 'saturday 10:40 am';
+	obj.description = '2002. oil on canvas. 100 x 90 cm.(each)';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/2.daily-nude/10.saturday-10-40am/monday-10-40am.jpg';
+		obj.image.ratio = 1400 / 721;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/2.daily-nude/9.tuesday-03-26pm/thumb.jpg';
+	obj.title = 'tuesday 03:26 pm';
+	obj.description = '2002. oil on canvas. 90 x 100 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/2.daily-nude/9.tuesday-03-26pm/tuesday-03-26pm.jpg';
+		obj.image.ratio = 1400 / 1246;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/2.daily-nude/8.thursday-12-36pm/thumb.jpg';
+	obj.title = 'thursday 12:36 pm';
+	obj.description = '2002. oil on canvas. 100 x 90 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/2.daily-nude/8.thursday-12-36pm/thursday-12-36pm.jpg';
+		obj.image.ratio = 1400 / 1558;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/2.daily-nude/7.monday-09-05am/thumb.jpg';
+	obj.title = 'monday 09:05 am';
+	obj.description = '2002. oil on canvas. 140 x 100 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/2.daily-nude/7.monday-09-05am/monday-09-05am.jpg';
+		obj.image.ratio = 1344 / 1890;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/2.daily-nude/6.sunday-05-10pm/thumb.jpg';
+	obj.title = 'sunday 05:10 pm';
+	obj.description = '2002. oil on canvas. 130 x 100 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/2.daily-nude/6.sunday-05-10pm/sunday-05-10pm.jpg';
+		obj.image.ratio = 1400 / 1839;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/2.daily-nude/5.wednesday-01-20pm/thumb.jpg';
+	obj.title = 'wednesday 01:20 pm';
+	obj.description = '2002. oil on canvas. 200 x 200 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/2.daily-nude/5.wednesday-01-20pm/wednesday-01-20pm.jpg';
+		obj.image.ratio = 1400 / 1383;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/2.daily-nude/4.sunday-11-50am/thumb.jpg';
+	obj.title = 'sunday 11:50 am';
+	obj.description = '2002. oil on canvas. 250 x 170 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/2.daily-nude/4.sunday-11-50am/sunday-11-50am.jpg';
+		obj.image.ratio = 1400 / 1978;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/2.daily-nude/3.saturday-11-15am/thumb.jpg';
+	obj.title = 'saturday 11:15 am';
+	obj.description = '2002. oil on canvas. 250 x 170 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/2.daily-nude/3.saturday-11-15am/saturday-11-15am.jpg';
+		obj.image.ratio = 1400 / 2027;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/2.daily-nude/2.friday-11-08am/thumb.jpg';
+	obj.title = 'friday 11:08 am';
+	obj.description = '2003. oil on canvas. 150 x 100 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/2.daily-nude/2.friday-11-08am/friday-11-08am.jpg';
+		obj.image.ratio = 1400 / 2119;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/2.daily-nude/1.monday-04-26pm/thumb.jpg';
+	obj.title = 'monday 04:26 pm';
+	obj.description = '2003. oil on canvas. 150 x 150 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/2.daily-nude/1.monday-04-26pm/monday-04-26pm.jpg';
+		obj.image.ratio = 1400 / 1384;
+	
+
+	gallery.push( obj );
+
+
+
+	var nthumbs = 7;
+
+
+new Diego.Project( gallery, nthumbs );
+
+</script>
+
+		<div id="footer">
+	<div id="copyright">copyright 2019 diego roig monllor</div>
+	<div id="credits">site by <a href="http://jocabola.com">jocabola</a></div>
+</div>
+	</div>
+
+</body>
+</html>
+<!-- Stacey(2.3.0): 536341a9cae692fd45ba4d576760581f -->

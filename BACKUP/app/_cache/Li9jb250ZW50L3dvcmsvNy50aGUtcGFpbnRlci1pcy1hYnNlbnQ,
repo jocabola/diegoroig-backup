@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<title>diego roig monllor</title>
+	<meta charset="utf-8" />
+	<meta http-equiv="content-language" content="en" />
+	<meta name="description" content="Diego Roig Monllor is a catalan artist based in Denmark and Berlin." />
+	<meta name="author" content="Jocabola, http://www.jocabola.com" />
+
+	<meta name="application-name" content="diego roig monllor"/>
+
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+
+	<link href='http://fonts.googleapis.com/css?family=Nunito:300,700' rel='stylesheet' type='text/css'>
+	<link href="../../public/css/styles.css" rel="stylesheet" media="screen" title="main" />
+
+	<script type="text/javascript" src="../../public/js/diego.js"></script>
+</head>
+<body>
+
+	<div id="container">
+		<div id="top">
+	<div id="name"><a href="../../">diego roig monllor</a></div>
+	<div id="sep"></div>
+	<div id="menu">
+		<div id="menu-work" class="menu-item"><a href="../../work/">work</a></div>
+		<!-- <div id="menu-news" class="menu-item"><a href="../../news/">news</a></div> -->
+		<div id="menu-contact" class="menu-item"><a href="../../contact/">contact</a></div>
+
+		<script type="text/javascript">
+			var url = '../../work/the-painter-is-absent/';
+			if ( url.indexOf( 'work' ) > -1 ) {
+				document.getElementById( 'menu-work' ).className += ' selected';
+			}
+			/*else if ( url.indexOf( 'news' ) > -1 ) {
+				document.getElementById( 'menu-news' ).className += ' selected';
+			}*/
+			else if ( url.indexOf( 'contact' ) > -1 ) {
+				document.getElementById( 'menu-contact' ).className += ' selected';
+			}
+		</script>
+	</div>
+</div>
+
+		<a href="../"><div class="back">Back to work index</div></a>
+
+		<div id="project-container">
+			<div id="image-view"></div>
+
+			<div id="project-info">
+				<div id="project-thumbs"></div>
+				<div class="project-content">
+					<h1>the painter is absent</h1>
+											(work in progress)
+					
+
+					
+				</div>
+			</div>
+		</div>
+
+		
+
+<script type="text/javascript">
+
+var gallery = [];
+var obj;
+
+	obj = {};
+
+	obj.thumb = '../../content/work/7.the-painter-is-absent/5.manteniment/thumb.jpg';
+	obj.title = 'Manteniment';
+	obj.description = '2018. wood, metal, glass, brushes and clothespegs. 165 x 22 x 22 cm';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/7.the-painter-is-absent/5.manteniment/manteniment-web.jpg';
+		obj.image.ratio = 2961 / 3438;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/7.the-painter-is-absent/4.palet/thumb.jpg';
+	obj.title = 'Palet';
+	obj.description = '2018. wood, plastic pipe, elastic band and brushes. 30 x 47 x 40';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/7.the-painter-is-absent/4.palet/Palet-web.jpg';
+		obj.image.ratio = 2554 / 1984;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/7.the-painter-is-absent/3.shoot-first-ask-questions-later/thumb.jpg';
+	obj.title = 'Shoot first, ask questions later';
+	obj.description = '2018. wood, pants, textile band, plastic pipe and brushes. 107 x 60 x 30 cm';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/7.the-painter-is-absent/3.shoot-first-ask-questions-later/shoot first, ask questions later-web.jpg';
+		obj.image.ratio = 1921 / 1417;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/7.the-painter-is-absent/2.malertisch/thumb.jpg';
+	obj.title = 'Malertisch';
+	obj.description = '2018. table, easel, wood, metal, brushes and paint tubes. 151 x 120 x 85 cm';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/7.the-painter-is-absent/2.malertisch/malertisch-web.jpg';
+		obj.image.ratio = 4189 / 2268;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/7.the-painter-is-absent/1.the-perfect-circle/thumb.jpg';
+	obj.title = 'the painter is absent';
+	obj.description = '2019. chair, canvases, stick, sand bags, brush and bucket. variable dimensions';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/7.the-painter-is-absent/1.the-perfect-circle/the perfect circle-web.jpg';
+		obj.image.ratio = 5137 / 2448;
+	
+
+	gallery.push( obj );
+
+
+
+	var nthumbs = 7;
+
+
+new Diego.Project( gallery, nthumbs );
+
+</script>
+
+		<div id="footer">
+	<div id="copyright">copyright 2019 diego roig monllor</div>
+	<div id="credits">site by <a href="http://jocabola.com">jocabola</a></div>
+</div>
+	</div>
+
+</body>
+</html>
+<!-- Stacey(2.3.0): 536341a9cae692fd45ba4d576760581f -->

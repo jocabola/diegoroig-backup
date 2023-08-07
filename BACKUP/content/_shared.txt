@@ -1,0 +1,11 @@
+name: diego roig monllor
+-
+profession: artist
+-
+email: contact@diegoroig.info
+-
+page_description: Diego Roig Monllor is a catalan artist based in Denmark and Berlin.
+-
+copyright: copyright @current_year diego roig monllor
+-
+back_to_work: Back to work index

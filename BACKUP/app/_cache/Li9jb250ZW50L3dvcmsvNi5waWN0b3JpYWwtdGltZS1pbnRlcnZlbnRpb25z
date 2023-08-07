@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<title>diego roig monllor</title>
+	<meta charset="utf-8" />
+	<meta http-equiv="content-language" content="en" />
+	<meta name="description" content="Diego Roig Monllor is a catalan artist based in Denmark and Berlin." />
+	<meta name="author" content="Jocabola, http://www.jocabola.com" />
+
+	<meta name="application-name" content="diego roig monllor"/>
+
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+
+	<link href='http://fonts.googleapis.com/css?family=Nunito:300,700' rel='stylesheet' type='text/css'>
+	<link href="../../public/css/styles.css" rel="stylesheet" media="screen" title="main" />
+
+	<script type="text/javascript" src="../../public/js/diego.js"></script>
+</head>
+<body>
+
+	<div id="container">
+		<div id="top">
+	<div id="name"><a href="../../">diego roig monllor</a></div>
+	<div id="sep"></div>
+	<div id="menu">
+		<div id="menu-work" class="menu-item"><a href="../../work/">work</a></div>
+		<!-- <div id="menu-news" class="menu-item"><a href="../../news/">news</a></div> -->
+		<div id="menu-contact" class="menu-item"><a href="../../contact/">contact</a></div>
+
+		<script type="text/javascript">
+			var url = '../../work/pictorial-time-interventions/';
+			if ( url.indexOf( 'work' ) > -1 ) {
+				document.getElementById( 'menu-work' ).className += ' selected';
+			}
+			/*else if ( url.indexOf( 'news' ) > -1 ) {
+				document.getElementById( 'menu-news' ).className += ' selected';
+			}*/
+			else if ( url.indexOf( 'contact' ) > -1 ) {
+				document.getElementById( 'menu-contact' ).className += ' selected';
+			}
+		</script>
+	</div>
+</div>
+
+		<a href="../"><div class="back">Back to work index</div></a>
+
+		<div id="project-container">
+			<div id="image-view"></div>
+
+			<div id="project-info">
+				<div id="project-thumbs"></div>
+				<div class="project-content">
+					<h1>pictorial time interventions</h1>
+											(work in progress)
+					
+
+					
+				</div>
+			</div>
+		</div>
+
+		
+
+<script type="text/javascript">
+
+var gallery = [];
+var obj;
+
+	obj = {};
+
+	obj.thumb = '../../content/work/6.pictorial-time-interventions/7.pictorial-time-interventon-1/thumb.jpg';
+	obj.title = 'pictorial time intervention I';
+	obj.description = '2015. oil on canvas. 60 x 35 cm';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/6.pictorial-time-interventions/7.pictorial-time-interventon-1/pictorial-time-interventon-1.jpg';
+		obj.image.ratio = 1183 / 2074;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/6.pictorial-time-interventions/6.pictorial-time-intervention-2/thumb.jpg';
+	obj.title = 'pictorial time intervention II';
+	obj.description = '2015. oil on canvas. 45 x 60 cm';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/6.pictorial-time-interventions/6.pictorial-time-intervention-2/pictorial-time-intervention-2.jpg';
+		obj.image.ratio = 1600 / 1123;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/6.pictorial-time-interventions/5.pictorial-time-intervention-3/thumb.jpg';
+	obj.title = 'pictorial time intervention III';
+	obj.description = '2015. oil on canvas. 45 x 65 cm';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/6.pictorial-time-interventions/5.pictorial-time-intervention-3/pictorial-time-intervention-3.jpg';
+		obj.image.ratio = 1600 / 1199;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/6.pictorial-time-interventions/4.pictorial-time-intervention-4/thumb.jpg';
+	obj.title = 'pictorial time intervention IV';
+	obj.description = '2015. oil on canvas. 70 x 110 cm';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/6.pictorial-time-interventions/4.pictorial-time-intervention-4/pictorial-time-intervention-4.jpg';
+		obj.image.ratio = 1600 / 1016;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/6.pictorial-time-interventions/3.pictorial-time-intervention-5/thumb.jpg';
+	obj.title = 'pictorial time intervention V';
+	obj.description = '2015. oil on canvas. 50 x 70 cm';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/6.pictorial-time-interventions/3.pictorial-time-intervention-5/pictorial-time-intervention-5.jpg';
+		obj.image.ratio = 1600 / 1146;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/6.pictorial-time-interventions/2.pictoral-time-interention-6/thumb.jpg';
+	obj.title = 'pictorial time intervention VI';
+	obj.description = '2018. oil on canvas. 50 x 45 cm';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/6.pictorial-time-interventions/2.pictoral-time-interention-6/pictorial-time intervention#6.jpg';
+		obj.image.ratio = 1200 / 1433;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/6.pictorial-time-interventions/1.pictorial-time-intervention-7/thumb.jpg';
+	obj.title = 'pictorial time intervention VII';
+	obj.description = '2018. oil on canvas. 40 x 30 cm';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/6.pictorial-time-interventions/1.pictorial-time-intervention-7/pictorial-time intervention#7.jpg';
+		obj.image.ratio = 1200 / 1609;
+	
+
+	gallery.push( obj );
+
+
+
+	var nthumbs = 7;
+
+
+new Diego.Project( gallery, nthumbs );
+
+</script>
+
+		<div id="footer">
+	<div id="copyright">copyright 2019 diego roig monllor</div>
+	<div id="credits">site by <a href="http://jocabola.com">jocabola</a></div>
+</div>
+	</div>
+
+</body>
+</html>
+<!-- Stacey(2.3.0): 536341a9cae692fd45ba4d576760581f -->

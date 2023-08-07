@@ -1,0 +1,271 @@
+* { padding: 0px; margin: 0px; }
+
+body {
+	background: #fff;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 300;
+	font-size: 13px;
+	color: #666;
+}
+
+b, strong {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
+}
+
+a {
+	font-weight: 700;
+	color: #c00;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #f00;
+}
+
+a img { border: none; }
+
+h1 { font-weight: 300; font-size: 36px; color: #000; margin-bottom: 24px; }
+
+#container {
+	min-width: 960px;
+	position: absolute;
+	top: 18px;
+	left: 24px;
+	right: 24px;
+	clear: both;
+}
+
+/* TOP */
+
+#top {
+	margin-bottom: 24px;
+	float: left;
+	clear: both;
+	width: 100%;
+	border-bottom: 1px #999 solid;
+	height: 40px;
+}
+
+#name {
+	font-size: 24px;
+	color: #333;
+	float: left;
+	margin-right: 48px;
+}
+
+#name a {
+	color: #333;
+	font-weight: 300;
+}
+
+#name a:hover {
+	color: #666;
+}
+
+#sep {
+	width: 1px;
+	height: 24px;
+	background: #ccc;
+	margin-top: 6px;
+	float: left;
+	margin-right: 48px;
+}
+
+#menu {
+	font-size: 16px;
+	color: #333;
+	float: left;
+	margin-top: 6px;
+}
+
+.menu-item a {
+	color: #333;
+	font-weight: 300;
+}
+
+.menu-item a:hover {
+	color: #666;
+}
+
+.menu-item {
+	float: left;
+	margin-right: 24px;
+}
+
+.selected a { font-weight: 700; }
+
+/* CONTENT */
+
+#content { position: relative; float: left; clear: both; }
+
+.intro { position: absolute; left: 0px; top: 100px; color: #000; }
+a .intro { font-weight: 300; }
+
+.intro-headline { left: 0px; top: 100px; background: #fff; background: rgba( 255, 255, 255, .8 ); padding: 12px 24px 12px 24px; font-size: 64px; margin-bottom: 12px; }
+.intro-subheadline { background: #fff; background: rgba( 255, 255, 255, .8 ); padding: 12px 24px 12px 24px; font-size: 24px; }
+
+
+/*
+	WORK LIST
+*/
+
+.work-items { clear: both; width: 100%; }
+
+/*.work-item { position: relative; width: 100%; height: 190px; background: #f9f9f9; clear: both; margin-bottom: 10px; }*/
+.work-item { position: relative; float: left; margin: 0px 10px 10px 0px; width: 285px; height: 260px; background: #f9f9f9; }
+.work-item:hover { background: #f4f4f4; }
+.work-item:hover .title { color: #000; }
+.work-item:hover .txt { color: #333; }
+
+.work-item:active { background: #f4f4f4; }
+.work-item:active .title { color: #000; }
+
+.work-item .thumb { position: absolute; top: 10px; left: 10px; overflow: hidden; width: 265px; height: 170px; }
+.work-item .title { font-size: 15px; font-weight: 500; color: #333; position: absolute; top: 190px; left: 10px; right: 10px; }
+.work-item .txt { font-size: 14px; font-weight: 300; color: #666; position: absolute; top: 70px; left: 285px; right: 10px; bottom: 10px; }
+.work-item .arrow { width: 14px; height: 24px; background: url( arrow.png ); position: absolute; right: 10px; bottom: 10px; }
+
+/* WORK */
+
+.back { position: absolute; font-size: 11px; height: 18px; right: 0px; top: 18px; background: url( arrow-back.png ) no-repeat 0px 1px ; padding: 0px 0px 0px 14px; }
+.back:hover { background: url( arrow-back-hover.png ) no-repeat 0px 1px; padding: 0px 0px 0px 14px; }
+
+#project-container, #contact-container { position: relative; clear: both; min-height: 520px; }
+#contact-container p { margin-bottom: 12px; }
+
+.loader { position: absolute; background: url( loader.gif ); width: 32px; height: 32px; left: 24px; top: 80px; }
+
+
+#project-info {
+	float: right;
+	width: 385px;
+}
+
+#project-info a, #contact-container a {
+	background: url( link-arrow.png ) no-repeat 0px 3px;
+	padding-left: 12px;
+}
+
+#project-info a:hover {
+	background: url( link-arrow-hover.png ) no-repeat 0px 3px;
+	padding-left: 12px;
+}
+
+#project-info a:active {
+	background: url( link-arrow-hover.png ) no-repeat 0px 3px;
+	padding-left: 12px;
+}
+
+#image-view {
+	float: left;
+	display: block;
+}
+
+#image-view .magnifier {
+	width: 24px;
+	height: 24px;
+	background: #fff 4px 4px url( magnifier.png ) no-repeat;
+	background: rgba( 255, 255, 255, .5 ) 4px 4px url( magnifier.png ) no-repeat;
+	position: absolute;
+	left: 4px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+#project-thumbs {
+	position: relative;
+	right: -5px;
+	width: 100%;
+	margin-bottom: 24px;
+	clear: right;
+}
+
+#project-thumbs .thumb {
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin: 0px 5px 5px 0px;
+	cursor: pointer;
+}
+
+#project-thumbs .thumb-selected {
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin: 0px 5px 5px 0px;
+	cursor: default;
+	opacity: .5;
+	filter: 'opacity( 50 )';
+	ms-filter: 'opacity( 50 )';
+}
+
+.project-content {
+	clear: both;
+	padding: 24px 0px 0px 4px;
+}
+.project-content p {
+	margin-bottom: 12px;
+}
+
+.project-content h1 {
+	font-size: 28px;
+	line-height: 28px;
+	/*text-decoration: underline;*/
+	color: #333;
+	margin-bottom: 12px;
+}
+
+.lightbox {
+	background: #fff;
+	/*opacity: 0.95;*/
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	min-width: 960px;
+	min-height: 480px;
+	z-index: 99;
+
+	/*transition: opacity 0.6s;
+	-moz-transition: opacity 0.6s;
+	-webkit-transition: opacity 0.6s;
+	-o-transition: opacity 0.6s;*/
+}
+
+.lightbox-image {
+	position: absolute;
+	top: 24px;
+	display: none;
+}
+
+.lightbox-loader { position: absolute; background: url( loader.gif ); width: 32px; height: 32px; top: 50%; left: 50%; margin-top: -16px; margin-left: -16px; }
+
+.lightbox-close { background: url( close.png ); width: 48px; height: 48px; position: absolute; top: 24px; right: 16px; cursor: pointer; }
+.lightbox-right { background: url( right-arrow.png ); width: 64px; height: 64px; position: absolute; top: 50%; margin-top: -32px; right: 0px; cursor: pointer; }
+.lightbox-left { background: url( left-arrow.png ); width: 64px; height: 64px; position: absolute; top: 50%; margin-top: -32px; left: 0px; cursor: pointer; }
+
+/* FOOTER */
+
+#footer {
+	width: 100%;
+	height: 36px;
+	border-top: 1px #999 solid;
+	color: #999;
+	float: left;
+	clear: both;
+	margin-top: 24px;
+	font-size: 12px;
+}
+
+#footer a {
+	color: #999;
+}
+
+#footer a:hover {
+	color: #666;
+}
+
+#copyright { float: left; margin-top: 8px; }
+#credits { float: right; margin-top: 8px; }

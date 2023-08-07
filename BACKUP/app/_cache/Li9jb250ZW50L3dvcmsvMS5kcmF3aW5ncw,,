@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<title>diego roig monllor</title>
+	<meta charset="utf-8" />
+	<meta http-equiv="content-language" content="en" />
+	<meta name="description" content="Diego Roig Monllor is a catalan artist based in Denmark and Berlin." />
+	<meta name="author" content="Jocabola, http://www.jocabola.com" />
+
+	<meta name="application-name" content="diego roig monllor"/>
+
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+
+	<link href='http://fonts.googleapis.com/css?family=Nunito:300,700' rel='stylesheet' type='text/css'>
+	<link href="../../public/css/styles.css" rel="stylesheet" media="screen" title="main" />
+
+	<script type="text/javascript" src="../../public/js/diego.js"></script>
+</head>
+<body>
+
+	<div id="container">
+		<div id="top">
+	<div id="name"><a href="../../">diego roig monllor</a></div>
+	<div id="sep"></div>
+	<div id="menu">
+		<div id="menu-work" class="menu-item"><a href="../../work/">work</a></div>
+		<!-- <div id="menu-news" class="menu-item"><a href="../../news/">news</a></div> -->
+		<div id="menu-contact" class="menu-item"><a href="../../contact/">contact</a></div>
+
+		<script type="text/javascript">
+			var url = '../../work/drawings/';
+			if ( url.indexOf( 'work' ) > -1 ) {
+				document.getElementById( 'menu-work' ).className += ' selected';
+			}
+			/*else if ( url.indexOf( 'news' ) > -1 ) {
+				document.getElementById( 'menu-news' ).className += ' selected';
+			}*/
+			else if ( url.indexOf( 'contact' ) > -1 ) {
+				document.getElementById( 'menu-contact' ).className += ' selected';
+			}
+		</script>
+	</div>
+</div>
+
+		<a href="../"><div class="back">Back to work index</div></a>
+
+		<div id="project-container">
+			<div id="image-view"></div>
+
+			<div id="project-info">
+				<div id="project-thumbs"></div>
+				<div class="project-content">
+					<h1>Drawings</h1>
+					
+
+											<p><a href="../../content/work/1.drawings/drawings.pdf">Download PDF</a></p>
+					
+				</div>
+			</div>
+		</div>
+
+		
+
+<script type="text/javascript">
+
+var gallery = [];
+var obj;
+
+	obj = {};
+
+	obj.thumb = '../../content/work/1.drawings/44.Daniel-I/thumb.jpg';
+	obj.title = 'Daniel I';
+	obj.description = '2007. pencil on paper. 42 x 29,7 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/1.drawings/44.Daniel-I/Daniel-I-.jpg';
+		obj.image.ratio = 1024 / 1448;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/1.drawings/43.Daniel-II/thumb.jpg';
+	obj.title = 'Daniel II';
+	obj.description = '2007. pencil on paper. 42 x 29,7 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/1.drawings/43.Daniel-II/Daniel-II.jpg';
+		obj.image.ratio = 1024 / 1448;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/1.drawings/42.Daniel-III/thumb.jpg';
+	obj.title = 'Daniel III';
+	obj.description = '2007. pencil on paper. 42 x 29,7 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/1.drawings/42.Daniel-III/Daniel-III.jpg';
+		obj.image.ratio = 1024 / 1448;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/1.drawings/41.Daniel-IV/thumb.jpg';
+	obj.title = 'Daniel IV';
+	obj.description = '2007. pencil on paper. 42 x 29,7 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/1.drawings/41.Daniel-IV/Daniel-IV.jpg';
+		obj.image.ratio = 1024 / 1448;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/1.drawings/40.Daniel-V/thumb.jpg';
+	obj.title = 'Daniel V';
+	obj.description = '2007. pencil on paper. 42 x 29,7 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/1.drawings/40.Daniel-V/Daniel-V.jpg';
+		obj.image.ratio = 1024 / 1448;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/1.drawings/39.Daniel-VI/thumb.jpg';
+	obj.title = 'Daniel VI';
+	obj.description = '2007. pencil on paper. 42 x 29,7 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/1.drawings/39.Daniel-VI/Daniel-VI.jpg';
+		obj.image.ratio = 1024 / 1448;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/1.drawings/38.Carla-I/thumb.jpg';
+	obj.title = 'Carla I';
+	obj.description = '2007. pencil on paper. 42 x 29,7 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/1.drawings/38.Carla-I/Carla-I.jpg';
+		obj.image.ratio = 1024 / 1448;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/1.drawings/37.Carla-II/thumb.jpg';
+	obj.title = 'Carla II';
+	obj.description = '2007. pencil on paper. 42 x 29,7 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/1.drawings/37.Carla-II/Carla-II.jpg';
+		obj.image.ratio = 1024 / 1448;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/1.drawings/36.Carla-III/thumb.jpg';
+	obj.title = 'Carla III';
+	obj.description = '2007. pencil on paper. 42 x 29,7 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/1.drawings/36.Carla-III/Carla-III.jpg';
+		obj.image.ratio = 1024 / 1448;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/1.drawings/35.Carla-IV/thumb.jpg';
+	obj.title = 'Carla IV';
+	obj.description = '2007. pencil on paper. 42 x 29,7 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/1.drawings/35.Carla-IV/Carla-IV.jpg';
+		obj.image.ratio = 1024 / 1448;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/1.drawings/34.Carla-V/thumb.jpg';
+	obj.title = 'Carla V';
+	obj.description = '2007. pencil on paper. 42 x 29,7 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/1.drawings/34.Carla-V/Carla-V.jpg';
+		obj.image.ratio = 1024 / 1448;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/1.drawings/33.Carla-VI/thumb.jpg';
+	obj.title = 'Carla VI';
+	obj.description = '2007. pencil on paper. 42 x 29,7 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/1.drawings/33.Carla-VI/Carla-VI.jpg';
+		obj.image.ratio = 1024 / 1448;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/1.drawings/32.Diana-I/thumb.jpg';
+	obj.title = 'Diana I';
+	obj.description = '2010. pencil on paper. 21 x 29,7 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/1.drawings/32.Diana-I/Diana-I.jpg';
+		obj.image.ratio = 1024 / 721;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/1.drawings/31.Diana-II/thumb.jpg';
+	obj.title = 'Diana II';
+	obj.description = '2010. pencil on paper. 21 x 29,7 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/1.drawings/31.Diana-II/Diana-II.jpg';
+		obj.image.ratio = 1024 / 715;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/1.drawings/30.Diana-III/thumb.jpg';
+	obj.title = 'Diana III';
+	obj.description = '2010. pencil on paper. 29,7 x 21 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/1.drawings/30.Diana-III/Diana-III.jpg';
+		obj.image.ratio = 1024 / 713;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/1.drawings/29.Diana-IV/thumb.jpg';
+	obj.title = 'Diana IV';
+	obj.description = '2010. pencil on paper. 21 x 29,7 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/1.drawings/29.Diana-IV/Diana-IV.jpg';
+		obj.image.ratio = 1024 / 713;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/1.drawings/28.Diana-V/thumb.jpg';
+	obj.title = 'Diana V';
+	obj.description = '2010. pencil on paper. 29,7 x 21 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/1.drawings/28.Diana-V/Diana-V.jpg';
+		obj.image.ratio = 1024 / 1448;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/1.drawings/27.Diana-VI/thumb.jpg';
+	obj.title = 'Diana VI';
+	obj.description = '2010. pencil on paper. 29,7 x 21 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/1.drawings/27.Diana-VI/Diana-VI.jpg';
+		obj.image.ratio = 1024 / 1447;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/1.drawings/26.Ariadna-I/thumb.jpg';
+	obj.title = 'Ariadna I';
+	obj.description = '2008. pencil on paper. 29,7 x 42 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/1.drawings/26.Ariadna-I/Ariadna-I.jpg';
+		obj.image.ratio = 1024 / 724;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/1.drawings/25.Ariadna-II/thumb.jpg';
+	obj.title = 'Ariadna II';
+	obj.description = '2008. pencil on paper. 29,7 x 42 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/1.drawings/25.Ariadna-II/Ariadna-II.jpg';
+		obj.image.ratio = 1024 / 724;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/1.drawings/24.Ariadna-III/thumb.jpg';
+	obj.title = 'Ariadna III';
+	obj.description = '2008. pencil on paper. 29,7 x 42 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/1.drawings/24.Ariadna-III/Ariadna-III.jpg';
+		obj.image.ratio = 1024 / 724;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/1.drawings/23.Ariadna-IV/thumb.jpg';
+	obj.title = 'Ariadna IV';
+	obj.description = '2008. pencil on paper. 29,7 x 42 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/1.drawings/23.Ariadna-IV/Ariadna-IV.jpg';
+		obj.image.ratio = 1024 / 724;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/1.drawings/22.Ariadna-V/thumb.jpg';
+	obj.title = 'Ariadna V';
+	obj.description = '2008. pencil on paper. 29,7 x 42 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/1.drawings/22.Ariadna-V/Ariadna-V.jpg';
+		obj.image.ratio = 1024 / 724;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/1.drawings/21.Ariadna-VI/thumb.jpg';
+	obj.title = 'Ariadna VI';
+	obj.description = '2008. pencil on paper. 29,7 x 42 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/1.drawings/21.Ariadna-VI/Ariadna-VI.jpg';
+		obj.image.ratio = 1024 / 724;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/1.drawings/20.Ariadna-VII/thumb.jpg';
+	obj.title = 'Ariadna VII';
+	obj.description = '2008. pencil on paper. 29,7 x 42 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/1.drawings/20.Ariadna-VII/Ariadna-VII.jpg';
+		obj.image.ratio = 1024 / 724;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/1.drawings/19.Ariadna-VIII/thumb.jpg';
+	obj.title = 'Ariadna VIII';
+	obj.description = '2008. pencil on paper. 29,7 x 42 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/1.drawings/19.Ariadna-VIII/Ariadna-VIII.jpg';
+		obj.image.ratio = 1024 / 724;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/1.drawings/18.Estel-la-I/thumb.jpg';
+	obj.title = 'Estel·la I';
+	obj.description = '2008. pencil on paper. 29,7 x 42 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/1.drawings/18.Estel-la-I/Estel-la-I.jpg';
+		obj.image.ratio = 1024 / 724;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/1.drawings/17.Estel-la-II/thumb.jpg';
+	obj.title = 'Estel·la II';
+	obj.description = '2008. pencil on paper. 29,7 x 42 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/1.drawings/17.Estel-la-II/Estel-la-II.jpg';
+		obj.image.ratio = 1024 / 724;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/1.drawings/16.Estel-la-III/thumb.jpg';
+	obj.title = 'Estel·la III';
+	obj.description = '2008. pencil on paper. 29,7 x 42 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/1.drawings/16.Estel-la-III/Estel-la-III.jpg';
+		obj.image.ratio = 1024 / 724;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/1.drawings/15.Estel-la-IV/thumb.jpg';
+	obj.title = 'Estel·la IV';
+	obj.description = '2008. pencil on paper. 29,7 x 42 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/1.drawings/15.Estel-la-IV/Estel-la-IV.jpg';
+		obj.image.ratio = 1024 / 724;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/1.drawings/14.Estel-la-V/thumb.jpg';
+	obj.title = 'Estel·la V';
+	obj.description = '2008. pencil on paper. 29,7 x 42 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/1.drawings/14.Estel-la-V/Estel-la-V.jpg';
+		obj.image.ratio = 1024 / 724;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/1.drawings/13.Estel-la-VI/thumb.jpg';
+	obj.title = 'Estel·la VI';
+	obj.description = '2008. pencil on paper. 29,7 x 42 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/1.drawings/13.Estel-la-VI/Estel-la-VI.jpg';
+		obj.image.ratio = 1024 / 724;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/1.drawings/12.Estel-la-VII/thumb.jpg';
+	obj.title = 'Estel·la VII';
+	obj.description = '2008. pencil on paper. 29,7 x 42 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/1.drawings/12.Estel-la-VII/Estel-la-VII.jpg';
+		obj.image.ratio = 1024 / 724;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/1.drawings/11.Estel-la-VIII/thumb.jpg';
+	obj.title = 'Estel·la VIII';
+	obj.description = '2008. pencil on paper. 29,7 x 42 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/1.drawings/11.Estel-la-VIII/Estel-la-VIII.jpg';
+		obj.image.ratio = 1024 / 724;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/1.drawings/10.Estel-la-IX/thumb.jpg';
+	obj.title = 'Estel·la IX';
+	obj.description = '2008. pencil on paper. 29,7 x 42 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/1.drawings/10.Estel-la-IX/Estel-la-IX.jpg';
+		obj.image.ratio = 1024 / 724;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/1.drawings/9.Estel-la-X/thumb.jpg';
+	obj.title = 'Estel·la X';
+	obj.description = '2008. pencil on paper. 29,7 x 42 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/1.drawings/9.Estel-la-X/Estel-la-X.jpg';
+		obj.image.ratio = 1024 / 724;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/1.drawings/8.Estel-la-XI/thumb.jpg';
+	obj.title = 'Estel·la XI';
+	obj.description = '2008. pencil on paper. 29,7 x 42 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/1.drawings/8.Estel-la-XI/Estel-la-XI.jpg';
+		obj.image.ratio = 1024 / 724;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/1.drawings/7.Estel-la-XII/thumb.jpg';
+	obj.title = 'Estel·la XII';
+	obj.description = '2008. pencil on paper. 29,7 x 42 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/1.drawings/7.Estel-la-XII/Estel-la-XII.jpg';
+		obj.image.ratio = 1024 / 724;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/1.drawings/6.Tatjana-I/thumb.jpg';
+	obj.title = 'Tatjana I';
+	obj.description = '2008. pencil on paper. 42 x 29,7 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/1.drawings/6.Tatjana-I/Tatjana-I.jpg';
+		obj.image.ratio = 1024 / 1448;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/1.drawings/5.Tatjana-II/thumb.jpg';
+	obj.title = 'Tatjana II';
+	obj.description = '2008. pencil on paper. 42 x 29,7 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/1.drawings/5.Tatjana-II/Tatjana-II.jpg';
+		obj.image.ratio = 1024 / 1448;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/1.drawings/4.Tatjana-III/thumb.jpg';
+	obj.title = 'Tatjana III';
+	obj.description = '2008. pencil on paper. 42 x 29,7 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/1.drawings/4.Tatjana-III/Tatjana-III.jpg';
+		obj.image.ratio = 1024 / 1448;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/1.drawings/3.Tatjana-IV/thumb.jpg';
+	obj.title = 'Tatjana IV';
+	obj.description = '2008. pencil on paper. 42 x 29,7 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/1.drawings/3.Tatjana-IV/Tatjana-IV.jpg';
+		obj.image.ratio = 1024 / 1448;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/1.drawings/2.Tatjana-V/thumb.jpg';
+	obj.title = 'Tatjana V';
+	obj.description = '2008. pencil on paper. 42 x 29,7 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/1.drawings/2.Tatjana-V/Tatjana-V.jpg';
+		obj.image.ratio = 1024 / 1448;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/1.drawings/1.Tatjana-VI/thumb.jpg';
+	obj.title = 'Tatjana VI';
+	obj.description = '2008. pencil on paper. 42 x 29,7 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/1.drawings/1.Tatjana-VI/Tatjana-VI.jpg';
+		obj.image.ratio = 1024 / 1448;
+	
+
+	gallery.push( obj );
+
+
+
+	var nthumbs = 7;
+
+
+new Diego.Project( gallery, nthumbs );
+
+</script>
+
+		<div id="footer">
+	<div id="copyright">copyright 2019 diego roig monllor</div>
+	<div id="credits">site by <a href="http://jocabola.com">jocabola</a></div>
+</div>
+	</div>
+
+</body>
+</html>
+<!-- Stacey(2.3.0): 536341a9cae692fd45ba4d576760581f -->

@@ -1,0 +1,22 @@
+<div id="top">
+	<div id="name"><a href="@root_path">@name</a></div>
+	<div id="sep"></div>
+	<div id="menu">
+		<div id="menu-work" class="menu-item"><a href="@root_path/work/">work</a></div>
+		<!-- <div id="menu-news" class="menu-item"><a href="@root_path/news/">news</a></div> -->
+		<div id="menu-contact" class="menu-item"><a href="@root_path/contact/">contact</a></div>
+
+		<script type="text/javascript">
+			var url = '@url';
+			if ( url.indexOf( 'work' ) > -1 ) {
+				document.getElementById( 'menu-work' ).className += ' selected';
+			}
+			/*else if ( url.indexOf( 'news' ) > -1 ) {
+				document.getElementById( 'menu-news' ).className += ' selected';
+			}*/
+			else if ( url.indexOf( 'contact' ) > -1 ) {
+				document.getElementById( 'menu-contact' ).className += ' selected';
+			}
+		</script>
+	</div>
+</div>

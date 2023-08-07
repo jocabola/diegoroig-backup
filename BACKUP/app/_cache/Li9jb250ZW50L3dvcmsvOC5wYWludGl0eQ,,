@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<title>diego roig monllor</title>
+	<meta charset="utf-8" />
+	<meta http-equiv="content-language" content="en" />
+	<meta name="description" content="Diego Roig Monllor is a catalan artist based in Denmark and Berlin." />
+	<meta name="author" content="Jocabola, http://www.jocabola.com" />
+
+	<meta name="application-name" content="diego roig monllor"/>
+
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+
+	<link href='http://fonts.googleapis.com/css?family=Nunito:300,700' rel='stylesheet' type='text/css'>
+	<link href="../../public/css/styles.css" rel="stylesheet" media="screen" title="main" />
+
+	<script type="text/javascript" src="../../public/js/diego.js"></script>
+</head>
+<body>
+
+	<div id="container">
+		<div id="top">
+	<div id="name"><a href="../../">diego roig monllor</a></div>
+	<div id="sep"></div>
+	<div id="menu">
+		<div id="menu-work" class="menu-item"><a href="../../work/">work</a></div>
+		<!-- <div id="menu-news" class="menu-item"><a href="../../news/">news</a></div> -->
+		<div id="menu-contact" class="menu-item"><a href="../../contact/">contact</a></div>
+
+		<script type="text/javascript">
+			var url = '../../work/paintity/';
+			if ( url.indexOf( 'work' ) > -1 ) {
+				document.getElementById( 'menu-work' ).className += ' selected';
+			}
+			/*else if ( url.indexOf( 'news' ) > -1 ) {
+				document.getElementById( 'menu-news' ).className += ' selected';
+			}*/
+			else if ( url.indexOf( 'contact' ) > -1 ) {
+				document.getElementById( 'menu-contact' ).className += ' selected';
+			}
+		</script>
+	</div>
+</div>
+
+		<a href="../"><div class="back">Back to work index</div></a>
+
+		<div id="project-container">
+			<div id="image-view"></div>
+
+			<div id="project-info">
+				<div id="project-thumbs"></div>
+				<div class="project-content">
+					<h1>Paintity</h1>
+											(work in progress)
+					
+
+					
+				</div>
+			</div>
+		</div>
+
+		
+
+<script type="text/javascript">
+
+var gallery = [];
+var obj;
+
+	obj = {};
+
+	obj.thumb = '../../content/work/8.paintity/9.deal/thumb.jpg';
+	obj.title = 'deal';
+	obj.description = '2018. acrylic and oil on canvas. 80 x 100 cm';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/8.paintity/9.deal/deal-72.jpg';
+		obj.image.ratio = 959 / 768;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/8.paintity/8.huden-titel/thumb.jpg';
+	obj.title = 'huden titel';
+	obj.description = '2017. oil on board. 40 x 40 cm';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/8.paintity/8.huden-titel/huden-titel-72.jpg';
+		obj.image.ratio = 770 / 768;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/8.paintity/7.hum/thumb.jpg';
+	obj.title = 'hum';
+	obj.description = '2018. acrylic on canvas. 30 x 30 cm';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/8.paintity/7.hum/hum-72.jpg';
+		obj.image.ratio = 772 / 768;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/8.paintity/6.kafe-og-kage/thumb.jpg';
+	obj.title = 'kafe og kage';
+	obj.description = '2018. oil on canvas. 50 x 40 cm';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/8.paintity/6.kafe-og-kage/kafe-og-kage-72.jpg';
+		obj.image.ratio = 613 / 768;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/8.paintity/5.aparicio/thumb.jpg';
+	obj.title = 'l’aparició';
+	obj.description = '2018. acrylic and oil on canvas. 40 x 40 cm';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/8.paintity/5.aparicio/aparició-72.jpg';
+		obj.image.ratio = 769 / 768;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/8.paintity/4.ohne-titel/thumb.jpg';
+	obj.title = 'ohne Titel';
+	obj.description = '2017. oil on canvas. 70 x 50 cm';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/8.paintity/4.ohne-titel/ohne-titel-72.jpg';
+		obj.image.ratio = 570 / 768;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/8.paintity/3.selvportraet/thumb.jpg';
+	obj.title = 'selvportræt (transviking)';
+	obj.description = '2018. oil on canvas. 50 x 45 cm';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/8.paintity/3.selvportraet/selvportraet-72.jpg';
+		obj.image.ratio = 693 / 768;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/8.paintity/2.sense-titol/thumb.jpg';
+	obj.title = 'sense títol';
+	obj.description = '2018. acrylic and oil on canvas. 60 x 50 cm';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/8.paintity/2.sense-titol/uden-titel-72.jpg';
+		obj.image.ratio = 639 / 768;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/8.paintity/1.uden-titel/thumb.jpg';
+	obj.title = 'u.t.';
+	obj.description = '2018. acrylic on canvas. 50 x 40 cm';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/8.paintity/1.uden-titel/uden-titel-72.jpg';
+		obj.image.ratio = 609 / 768;
+	
+
+	gallery.push( obj );
+
+
+
+	var nthumbs = 7;
+
+
+new Diego.Project( gallery, nthumbs );
+
+</script>
+
+		<div id="footer">
+	<div id="copyright">copyright 2019 diego roig monllor</div>
+	<div id="credits">site by <a href="http://jocabola.com">jocabola</a></div>
+</div>
+	</div>
+
+</body>
+</html>
+<!-- Stacey(2.3.0): 536341a9cae692fd45ba4d576760581f -->

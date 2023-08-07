@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<title>diego roig monllor</title>
+	<meta charset="utf-8" />
+	<meta name="description" content="blah blah blah" />
+	<meta name="author" content="jocabola" />
+
+	<meta name="application-name" content="diego roig monllor"/>
+
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+
+	<link href='http://fonts.googleapis.com/css?family=Nunito:300,700' rel='stylesheet' type='text/css'>
+	<link href="../../public/css/styles.css" rel="stylesheet" media="screen" title="main" />
+
+	<script type="text/javascript" src="../../public/js/diego.js"></script>
+</head>
+<body>
+
+	<div id="container">
+		<div id="top">
+	<div id="name"><a href="../../">diego roig monllor</a></div>
+	<div id="sep"></div>
+	<div id="menu">
+		<div id="menu-work" class="menu-item"><a href="../../work/">work</a></div>
+		<!-- <div id="menu-news" class="menu-item"><a href="../../news/">news</a></div> -->
+		<div id="menu-contact" class="menu-item"><a href="../../contact/">contact</a></div>
+
+		<script type="text/javascript">
+			var url = '../../work/nothing-human-is-alien-to-me/';
+			if ( url.indexOf( 'work' ) > -1 ) {
+				document.getElementById( 'menu-work' ).className += ' selected';
+			}
+			/*else if ( url.indexOf( 'news' ) > -1 ) {
+				document.getElementById( 'menu-news' ).className += ' selected';
+			}*/
+			else if ( url.indexOf( 'contact' ) > -1 ) {
+				document.getElementById( 'menu-contact' ).className += ' selected';
+			}
+		</script>
+	</div>
+</div>
+
+		<a href="../"><div class="back">Back to work index</div></a>
+
+		<div id="project-container">
+			<div id="image-view"></div>
+
+			<div id="project-info">
+				<div id="project-thumbs"></div>
+				<div class="project-content">
+					<h1>Nothing human is alien to me</h1>
+					
+
+											<p><a href="../../content/work/3.nothing-human-is-alien-to-me/nothing-human-is-alien-to-me.pdf">Download PDF</a></p>
+					
+				</div>
+			</div>
+		</div>
+
+		
+
+<script type="text/javascript">
+
+var gallery = [];
+var obj;
+
+	obj = {};
+
+	obj.thumb = '../../content/work/3.nothing-human-is-alien-to-me/21.Hannibal-I/Hannibal.thumb.jpg';
+	obj.title = 'Hannibal I';
+	obj.description = '2009. acrylic on paper. 50 x 63 cms.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/3.nothing-human-is-alien-to-me/21.Hannibal-I/Hannibal.jpg';
+		obj.image.ratio = 1024 / 793;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/3.nothing-human-is-alien-to-me/20.John/thumb.jpg';
+	obj.title = 'John';
+	obj.description = '2009. acrylic on paper. 63 x 50 cms.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/3.nothing-human-is-alien-to-me/20.John/John.jpg';
+		obj.image.ratio = 1024 / 1306;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/3.nothing-human-is-alien-to-me/19.Hannibal-II/thumb.jpg';
+	obj.title = 'Hannibal II';
+	obj.description = '2009. acrylic and oil on paper. 25 x 18 cms.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/3.nothing-human-is-alien-to-me/19.Hannibal-II/Hannibal-II.jpg';
+		obj.image.ratio = 1024 / 1366;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/3.nothing-human-is-alien-to-me/18.Michael-K/thumb.jpg';
+	obj.title = 'Michael.K';
+	obj.description = '2009. acrylic on paper. 50 x 63 cms.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/3.nothing-human-is-alien-to-me/18.Michael-K/Michael-K.jpg';
+		obj.image.ratio = 1024 / 801;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/3.nothing-human-is-alien-to-me/17.Mallory-K/thumb.jpg';
+	obj.title = 'Mallory.K';
+	obj.description = '2009. acrylic on paper. 45 x 58 cms.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/3.nothing-human-is-alien-to-me/17.Mallory-K/Mallory-K.jpg';
+		obj.image.ratio = 1024 / 768;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/3.nothing-human-is-alien-to-me/16.Malamadre/thumb.jpg';
+	obj.title = 'Malamadre';
+	obj.description = '2010. oil on board. 32 x 25 cms.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/3.nothing-human-is-alien-to-me/16.Malamadre/Malamadre.jpg';
+		obj.image.ratio = 1024 / 1446;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/3.nothing-human-is-alien-to-me/15.Alex-I/thumb.jpg';
+	obj.title = 'Alex';
+	obj.description = '2010. oil on board. 57 x 45 cms.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/3.nothing-human-is-alien-to-me/15.Alex-I/Alex-I.jpg';
+		obj.image.ratio = 1024 / 1024;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/3.nothing-human-is-alien-to-me/14.Jocker/thumb.jpg';
+	obj.title = 'Jocker';
+	obj.description = '2009. acrylic on paper. 25 x 40 cms.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/3.nothing-human-is-alien-to-me/14.Jocker/Jocker .jpg';
+		obj.image.ratio = 1024 / 791;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/3.nothing-human-is-alien-to-me/13.Alex-II/thumb.jpg';
+	obj.title = 'Alex II';
+	obj.description = '2010. oil on board. 30 x 30 cms.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/3.nothing-human-is-alien-to-me/13.Alex-II/Alex-II.jpg';
+		obj.image.ratio = 1024 / 1024;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/3.nothing-human-is-alien-to-me/12.Aaron/thumb.jpg';
+	obj.title = 'Aaron';
+	obj.description = '2010. oil on paper. 63 x 50 cms.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/3.nothing-human-is-alien-to-me/12.Aaron/Aaron.jpg';
+		obj.image.ratio = 1024 / 1307;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/3.nothing-human-is-alien-to-me/11.Powell/thumb.jpg';
+	obj.title = 'Powell';
+	obj.description = '2010. oil on board. 42 x 30 cms.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/3.nothing-human-is-alien-to-me/11.Powell/Powell.jpg';
+		obj.image.ratio = 1024 / 1464;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/3.nothing-human-is-alien-to-me/10.Anton-I/thumb.jpg';
+	obj.title = 'Anton-I';
+	obj.description = '2010. oil on canvas. 62 x 62 cms.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/3.nothing-human-is-alien-to-me/10.Anton-I/Anton-I.jpg';
+		obj.image.ratio = 1024 / 1059;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/3.nothing-human-is-alien-to-me/9.Anton-II/thumb.jpg';
+	obj.title = 'Anton II';
+	obj.description = '2009. oil on canvas. 58 x 45 cms.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/3.nothing-human-is-alien-to-me/9.Anton-II/Anton-II.jpg';
+		obj.image.ratio = 1024 / 1095;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/3.nothing-human-is-alien-to-me/8.Hans/thumb.jpg';
+	obj.title = 'Hans';
+	obj.description = '2010. oil on canvas. 150 x 150 cms.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/3.nothing-human-is-alien-to-me/8.Hans/Hans.jpg';
+		obj.image.ratio = 1024 / 1049;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/3.nothing-human-is-alien-to-me/7.Walter/thumb.jpg';
+	obj.title = 'Walter';
+	obj.description = '2010. acrylic and oil on canvas. 180 x 180 cms.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/3.nothing-human-is-alien-to-me/7.Walter/Walter.jpg';
+		obj.image.ratio = 1024 / 1027;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/3.nothing-human-is-alien-to-me/6.Paul/thumb.jpg';
+	obj.title = 'Paul';
+	obj.description = '2010. oil on canvas. 58 x 53 cms.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/3.nothing-human-is-alien-to-me/6.Paul/Paul.jpg';
+		obj.image.ratio = 1024 / 1024;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/3.nothing-human-is-alien-to-me/5.Peter/thumb.jpg';
+	obj.title = 'Peter';
+	obj.description = '2010. oil on board. 45 x 30 cms.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/3.nothing-human-is-alien-to-me/5.Peter/Peter.jpg';
+		obj.image.ratio = 1024 / 1123;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/3.nothing-human-is-alien-to-me/4.Marquise-Isabel-de-Merteuil-I/thumb.jpg';
+	obj.title = 'Marquise Isabelle de Merteuil I';
+	obj.description = '2010. oil on paper. 63 x 50 cms.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/3.nothing-human-is-alien-to-me/4.Marquise-Isabel-de-Merteuil-I/Marquise-Isabelle-de-Merteuil-I.jpg';
+		obj.image.ratio = 1024 / 1293;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/3.nothing-human-is-alien-to-me/3.Vicomte-Sebastien-de-Valmont/thumb.jpg';
+	obj.title = 'Vicomte Sebastien de Valmont';
+	obj.description = '2009. oil on canvas. 48 x 47 cms.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/3.nothing-human-is-alien-to-me/3.Vicomte-Sebastien-de-Valmont/Vicomte-Sebastien-de-Valmont.jpg';
+		obj.image.ratio = 1024 / 1005;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/3.nothing-human-is-alien-to-me/2.Marquise-Isabel-de-merteuil-II/thumb.jpg';
+	obj.title = 'Marquise Isabelle de Merteuil II';
+	obj.description = '2010. oil on paper. 50 x 63 cms.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/3.nothing-human-is-alien-to-me/2.Marquise-Isabel-de-merteuil-II/Marquese-Isabel-de-Merteuil-II.jpg';
+		obj.image.ratio = 1024 / 790;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/3.nothing-human-is-alien-to-me/1.Bill/thumb.jpg';
+	obj.title = 'Bill';
+	obj.description = '2009. acrylic on canvas. 120 x 150 cm.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/3.nothing-human-is-alien-to-me/1.Bill/Bill.jpg';
+		obj.image.ratio = 1024 / 752;
+	
+
+	gallery.push( obj );
+
+
+
+	var nthumbs = 7;
+
+
+new Diego.Project( gallery, nthumbs );
+
+</script>
+
+		<div id="footer">
+	<div id="copyright">copyright 2012 diego roig monllor</div>
+	<div id="credits">site by <a href="http://jocabola.com">jocabola</a></div>
+</div>
+	</div>
+
+</body>
+</html>
+<!-- Stacey(2.3.0): 64e94b1a8dce3d7b16accfc88e04d61a -->

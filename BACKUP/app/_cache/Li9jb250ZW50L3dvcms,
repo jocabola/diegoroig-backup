@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<title>diego roig monllor</title>
+	<meta charset="utf-8" />
+	<meta http-equiv="content-language" content="en" />
+	<meta name="description" content="Diego Roig Monllor is a catalan artist based in Denmark and Berlin." />
+	<meta name="author" content="Jocabola, http://www.jocabola.com" />
+
+	<meta name="application-name" content="diego roig monllor"/>
+
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+
+	<link href='http://fonts.googleapis.com/css?family=Nunito:300,700' rel='stylesheet' type='text/css'>
+	<link href="../public/css/styles.css" rel="stylesheet" media="screen" title="main" />
+
+	<script type="text/javascript" src="../public/js/diego.js"></script>
+</head>
+<body>
+
+	<div id="container">
+		<div id="top">
+	<div id="name"><a href="../">diego roig monllor</a></div>
+	<div id="sep"></div>
+	<div id="menu">
+		<div id="menu-work" class="menu-item"><a href="../work/">work</a></div>
+		<!-- <div id="menu-news" class="menu-item"><a href="../news/">news</a></div> -->
+		<div id="menu-contact" class="menu-item"><a href="../contact/">contact</a></div>
+
+		<script type="text/javascript">
+			var url = '../work/';
+			if ( url.indexOf( 'work' ) > -1 ) {
+				document.getElementById( 'menu-work' ).className += ' selected';
+			}
+			/*else if ( url.indexOf( 'news' ) > -1 ) {
+				document.getElementById( 'menu-news' ).className += ' selected';
+			}*/
+			else if ( url.indexOf( 'contact' ) > -1 ) {
+				document.getElementById( 'menu-contact' ).className += ' selected';
+			}
+		</script>
+	</div>
+</div>
+
+		<!-- <h1>Selected work</h1> -->
+		<div class="work-items">
+				  <a href="../work/paintity/"><div class="work-item">
+		  	<div class="thumb"><img src="../content/work/8.paintity/thumb.jpg"/></div>
+		  	<div class="title">
+		  		
+		  				  			Paintity
+		  		
+		  	</div>
+		  	<!-- <div class="txt">@short_description</div>
+		  	<div class="arrow"></div> -->
+		  </div></a>
+				  <a href="../work/the-painter-is-absent/"><div class="work-item">
+		  	<div class="thumb"><img src="../content/work/7.the-painter-is-absent/thumb.jpg"/></div>
+		  	<div class="title">
+		  		
+		  				  			the painter is absent
+		  		
+		  	</div>
+		  	<!-- <div class="txt">@short_description</div>
+		  	<div class="arrow"></div> -->
+		  </div></a>
+				  <a href="../work/pictorial-time-interventions/"><div class="work-item">
+		  	<div class="thumb"><img src="../content/work/6.pictorial-time-interventions/thumb.jpg"/></div>
+		  	<div class="title">
+		  		
+		  				  			pictorial time interventions
+		  		
+		  	</div>
+		  	<!-- <div class="txt">@short_description</div>
+		  	<div class="arrow"></div> -->
+		  </div></a>
+				  <a href="../work/les-variacions-goku/"><div class="work-item">
+		  	<div class="thumb"><img src="../content/work/5.les-variacions-goku/thumb.jpg"/></div>
+		  	<div class="title">
+		  		
+		  				  			Les variacions Goku
+		  		
+		  	</div>
+		  	<!-- <div class="txt">@short_description</div>
+		  	<div class="arrow"></div> -->
+		  </div></a>
+				  <a href="../work/nothing-human-is-alien-to-me/"><div class="work-item">
+		  	<div class="thumb"><img src="../content/work/4.nothing-human-is-alien-to-me/thumb.jpg"/></div>
+		  	<div class="title">
+		  		
+		  				  			Nothing human is alien to me
+		  		
+		  	</div>
+		  	<!-- <div class="txt"></div>
+		  	<div class="arrow"></div> -->
+		  </div></a>
+				  <a href="../work/i-always-wanted-to-write-words-in-eglish-over-my-figurative-paintings-now-i-am-feeling-so-good-so-contemporary/"><div class="work-item">
+		  	<div class="thumb"><img src="../content/work/3.i-always-wanted-to-write-words-in-eglish-over-my-figurative-paintings-now-i-am-feeling-so-good-so-contemporary/thumb.jpg"/></div>
+		  	<div class="title">
+		  				  			I always wanted to...feel so good, so contemporary!
+		  		
+		  		
+		  	</div>
+		  	<!-- <div class="txt">@short_description</div>
+		  	<div class="arrow"></div> -->
+		  </div></a>
+				  <a href="../work/daily-nude/"><div class="work-item">
+		  	<div class="thumb"><img src="../content/work/2.daily-nude/thumb.jpg"/></div>
+		  	<div class="title">
+		  		
+		  				  			Daily nude
+		  		
+		  	</div>
+		  	<!-- <div class="txt"></div>
+		  	<div class="arrow"></div> -->
+		  </div></a>
+				  <a href="../work/drawings/"><div class="work-item">
+		  	<div class="thumb"><img src="../content/work/1.drawings/thumb.jpg"/></div>
+		  	<div class="title">
+		  		
+		  				  			Drawings
+		  		
+		  	</div>
+		  	<!-- <div class="txt">@short_description</div>
+		  	<div class="arrow"></div> -->
+		  </div></a>
+		
+		</div>
+
+		<div id="footer">
+	<div id="copyright">copyright 2019 diego roig monllor</div>
+	<div id="credits">site by <a href="http://jocabola.com">jocabola</a></div>
+</div>
+	</div>
+
+</body>
+</html>
+<!-- Stacey(2.3.0): 536341a9cae692fd45ba4d576760581f -->

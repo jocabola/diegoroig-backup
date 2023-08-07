@@ -1,0 +1,37 @@
+
+
+<script type="text/javascript">
+
+var gallery = [];
+var obj;
+
+foreach $children do
+
+	obj = {};
+
+	obj.thumb = '@thumb';
+	obj.title = '@title';
+	obj.description = '@description';
+
+	obj.image = {};
+
+	foreach $jpg[0:1] do
+		obj.image.url ='@url';
+		obj.image.ratio = @width / @height;
+	endforeach
+
+	gallery.push( obj );
+  
+endforeach
+
+if @thumbs_per_row do
+	var nthumbs = @thumbs_per_row;
+endif
+
+if !@thumbs_per_row do
+	var nthumbs = 7;
+endif
+
+new Diego.Project( gallery, nthumbs );
+
+</script>

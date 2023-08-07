@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+	:header
+<body>
+
+	<div id="container">
+		:top
+
+		if @link do
+			<a href="@link"><div id="content"><img src="@thumb" style="width: 100%;" />:intro</div></a>
+		endif
+
+		if !@link do
+			<div id="content"><img src="@thumb" />:intro</div>
+		endif
+
+		:footer
+	</div>
+
+</body>
+</html>

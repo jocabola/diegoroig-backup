@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<title>diego roig monllor</title>
+	<meta charset="utf-8" />
+	<meta name="description" content="blah blah blah" />
+	<meta name="author" content="jocabola" />
+
+	<meta name="application-name" content="diego roig monllor"/>
+
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+
+	<link href='http://fonts.googleapis.com/css?family=Nunito:300,700' rel='stylesheet' type='text/css'>
+	<link href="../../public/css/styles.css" rel="stylesheet" media="screen" title="main" />
+
+	<script type="text/javascript" src="../../public/js/diego.js"></script>
+</head>
+<body>
+
+	<div id="container">
+		<div id="top">
+	<div id="name"><a href="../../">diego roig monllor</a></div>
+	<div id="sep"></div>
+	<div id="menu">
+		<div id="menu-work" class="menu-item"><a href="../../work/">work</a></div>
+		<!-- <div id="menu-news" class="menu-item"><a href="../../news/">news</a></div> -->
+		<div id="menu-contact" class="menu-item"><a href="../../contact/">contact</a></div>
+
+		<script type="text/javascript">
+			var url = '../../work/i-always-wanted-to-write-words-in-eglish-over-my-figurative-paintings-now-i-am-feeling-so-good-so-contemporary/';
+			if ( url.indexOf( 'work' ) > -1 ) {
+				document.getElementById( 'menu-work' ).className += ' selected';
+			}
+			/*else if ( url.indexOf( 'news' ) > -1 ) {
+				document.getElementById( 'menu-news' ).className += ' selected';
+			}*/
+			else if ( url.indexOf( 'contact' ) > -1 ) {
+				document.getElementById( 'menu-contact' ).className += ' selected';
+			}
+		</script>
+	</div>
+</div>
+
+		<a href="../"><div class="back">Back to work index</div></a>
+
+		<div id="project-container">
+			<div id="image-view"></div>
+
+			<div id="project-info">
+				<div id="project-thumbs"></div>
+				<div class="project-content">
+					<h1>I always wanted to be so contemporary</h1>
+					
+
+											<p><a href="../../content/work/2.i-always-wanted-to-write-words-in-eglish-over-my-figurative-paintings-now-i-am-feeling-so-good-so-contemporary/I always wanted....pdf">Download PDF</a></p>
+					
+				</div>
+			</div>
+		</div>
+
+		
+
+<script type="text/javascript">
+
+var gallery = [];
+var obj;
+
+	obj = {};
+
+	obj.thumb = '../../content/work/2.i-always-wanted-to-write-words-in-eglish-over-my-figurative-paintings-now-i-am-feeling-so-good-so-contemporary/5.je-weniger-meine-Malerei-sich-entwickelt-desto-sauberer-ist-meine-Wohnung/thumb.jpg';
+	obj.title = 'je weniger meine Malerei sich entwickelt desto sauberer ist meine Wohnung';
+	obj.description = '2008. acrylic on board. 150 x 120 cms.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/2.i-always-wanted-to-write-words-in-eglish-over-my-figurative-paintings-now-i-am-feeling-so-good-so-contemporary/5.je-weniger-meine-Malerei-sich-entwickelt-desto-sauberer-ist-meine-Wohnung/Je-weniger.jpg';
+		obj.image.ratio = 1024 / 1278;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/2.i-always-wanted-to-write-words-in-eglish-over-my-figurative-paintings-now-i-am-feeling-so-good-so-contemporary/4.Selbstportraet/thumb.jpg';
+	obj.title = 'Selbstportraet';
+	obj.description = '2009. acrylic and serigraphy on canvas. 120 x 100 cms.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/2.i-always-wanted-to-write-words-in-eglish-over-my-figurative-paintings-now-i-am-feeling-so-good-so-contemporary/4.Selbstportraet/Selbstportraet00.jpg';
+		obj.image.ratio = 1024 / 1228;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/2.i-always-wanted-to-write-words-in-eglish-over-my-figurative-paintings-now-i-am-feeling-so-good-so-contemporary/3.Palette/thumb.jpg';
+	obj.title = 'Palette';
+	obj.description = '2009. acrylic, toy and palette. 50 x 40 x 20 cms.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/2.i-always-wanted-to-write-words-in-eglish-over-my-figurative-paintings-now-i-am-feeling-so-good-so-contemporary/3.Palette/palette-collage.jpg';
+		obj.image.ratio = 1380 / 1437;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/2.i-always-wanted-to-write-words-in-eglish-over-my-figurative-paintings-now-i-am-feeling-so-good-so-contemporary/2.ich-tausche-Zeit-gegen-gute-Ideen/thumb.jpg';
+	obj.title = 'ich tausche Zeit gegen gute Ideen';
+	obj.description = '2008. acrylic, wax and oil on board. 40 x 45 cms.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/2.i-always-wanted-to-write-words-in-eglish-over-my-figurative-paintings-now-i-am-feeling-so-good-so-contemporary/2.ich-tausche-Zeit-gegen-gute-Ideen/ich-tausche-Zeit-gegen-gute-Ideen.jpg';
+		obj.image.ratio = 1024 / 905;
+	
+
+	gallery.push( obj );	obj = {};
+
+	obj.thumb = '../../content/work/2.i-always-wanted-to-write-words-in-eglish-over-my-figurative-paintings-now-i-am-feeling-so-good-so-contemporary/1.Morgen-gehe-ich-doch-ins-Atelier/thumb.jpg';
+	obj.title = 'Morgen gehe ich doch ins Atelier';
+	obj.description = '2009. acrylic on board. 120 x 120 cms.';
+
+	obj.image = {};
+
+			obj.image.url ='../../content/work/2.i-always-wanted-to-write-words-in-eglish-over-my-figurative-paintings-now-i-am-feeling-so-good-so-contemporary/1.Morgen-gehe-ich-doch-ins-Atelier/Morgen.jpg';
+		obj.image.ratio = 1024 / 1025;
+	
+
+	gallery.push( obj );
+
+
+
+	var nthumbs = 7;
+
+
+new Diego.Project( gallery, nthumbs );
+
+</script>
+
+		<div id="footer">
+	<div id="copyright">copyright 2012 diego roig monllor</div>
+	<div id="credits">site by <a href="http://jocabola.com">jocabola</a></div>
+</div>
+	</div>
+
+</body>
+</html>
+<!-- Stacey(2.3.0): 64e94b1a8dce3d7b16accfc88e04d61a -->

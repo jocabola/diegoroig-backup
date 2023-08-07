@@ -1,0 +1,9 @@
+{
+	"title" : "@title",
+	"thumb" : "@thumb",
+	"image" :
+	foreach $jpg[0:1] do
+		"@url",
+	endforeach
+	"description" : "@description"
+}
